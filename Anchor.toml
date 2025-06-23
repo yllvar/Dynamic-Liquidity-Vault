@@ -1,0 +1,22 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+dynamic_vault = "5WsnuvmE8uRrhoRQeEEo8wJBqhh4NrMcmADVqhjGD544"
+
+[programs.devnet]
+meteora_dlmm = "DLMMjp56X1g8qj1JpD7D6w6H3B83ocdHWxAgKPR8uPNjCQ5w"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
