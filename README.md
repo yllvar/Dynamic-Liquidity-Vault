@@ -1,4 +1,4 @@
-# 🚀 Dynamic Liquidity Vault (Solana + Anchor + Rust)
+# 🚀 Dynamic Liquidity Vault 
 
 A Solana smart contract that auto-rebalances liquidity positions in **Meteora's DLMM** based on price volatility and yield opportunities.
 
