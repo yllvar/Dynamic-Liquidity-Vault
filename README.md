@@ -78,7 +78,7 @@ sequenceDiagram
 ### Installation
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/dynamic-vault.git
+git clone https://github.com/yllvar/dynamic-vault.git
 cd dynamic-vault
 
 # Install dependencies
